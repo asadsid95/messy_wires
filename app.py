@@ -6,6 +6,6 @@ app = Flask(__name__)
 def test():
     return '<h1>hello!</h1>'
 
-@app.route('/settings')
-def settings():
-    return '<h1>Settings</h1>'
+@app.route('/users/<string:username>')
+def settings(username):
+    return f'<h1>{username}</h1>'
