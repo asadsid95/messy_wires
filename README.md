@@ -15,3 +15,6 @@ Install dependencies:
 
 Run Flask server with auto-reloading via:
 `flask run --debug`
+
+
+HTML and CSS code credited to `https://codepen.io/Saddam-12/pen/YzOXmNE`
