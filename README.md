@@ -13,8 +13,7 @@ For MacOS/Linux:
 Install dependencies:
 `pip install -r requirements.txt`
 
-Run Flask server with auto-reloading via:
-`flask run --debug`
+Run Flask server with auto-reloading from root directory via:
+`flask --app flaskr run --debug`
 
 
-HTML and CSS code credited to `https://codepen.io/Saddam-12/pen/YzOXmNE`
